@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 15, 2016, 9:28:22 AM
+    Author     : Abbas
+*/
+#mappanel{
+    width: 98% !important;
+    height: 350px;
+    margin-left:1%;
+    padding: 0px !important;
+    
+}
+#map{
+    width: 100% !important;
+    height: 280px;
+    padding: 0px !important;
+    margin: 0px !important;
+   
+}
+
+.booking-btn-div{
+  
+    margin-top: 5px;
+    position: relative;
+    left:5% !important;
+    
+    
+}
+.panel{
+    margin-bottom: 5px !important;
+}
+#detailpanel{
+    display: none;
+}
+
+#expositionpanel{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    min-height: 350px;
+    
+}
+table{ 
+    margin: 0 auto; 
+    border-collapse: separate; 
+    border-spacing: 15px;
+    width:40%;
+}
+table tr{ 
+    height:50px;
+}
+table td{ 
+    width:50px;
+    text-align: center;
+    background-color: f5f5f5;
+    color:#ccc;
+    font-weight: bold;
+    cursor:pointer;
+    vertical-align: top;
+    padding: 5px;
+    font-size: 10px;
+}
+#mapgrid div{
+
+}
+
+#registerModal{
+    font-size: 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.cmplogo{
+    margin-top: 20px;
+    margin-left:-40%;
+}

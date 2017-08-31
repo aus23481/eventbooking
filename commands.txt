@@ -1,0 +1,26 @@
+create class:
+php artisan make:migration create_users_table
+php artisan make:migration add_votes_to_users_table --table=users
+php artisan make:migration create_users_table --create=users
+
+Run Migrate
+php artisan migrate
+
+php artisan --version
+//create seeder class file
+php artisan make:seeder UsersTableSeeder
+To run seed
+php artisan db:seed
+php artisan db:seed --class=UsersTableSeeder
+php artisan migrate:refresh --seed
+
+//controller create
+
+php artisan make:controller PhotoController --resource
+
+
+php artisan make:auth
+
+php artisan event:generate
+
+C:\wamp\www\eventbooking\tests\ExpositionMapTest.php
